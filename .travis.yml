@@ -7,13 +7,18 @@ install:
 script:
 - pelican
 after_success:
+- git log -n1 --format="format:%s%n%n$TRAVIS_COMMIT_RANGE" > /tmp/blog-commit
+- git log -n1 --format="format:%an" > /tmp/blog-author
+- git log -n1 --format="format:%ae" > /tmp/blog-author-email
 - git clone -b gh-pages https://$GITHUB_TOKEN:x-oauth-basic@github.com/earthreader/blog.git /tmp/blog-out;
-  cd /tmp/blog-out/;
+  pushd /tmp/blog-out/;
+  git config user.name "`cat /tmp/blog-author`";
+  git config user.email "`cat /tmp/blog-author-email`";
   git rm -r .;
   touch .nojekyll;
   echo -n blog.earthreader.org > CNAME;
+  popd
 - cp output/* /tmp/blog-out/;
-- git log -n1 --format="format:%s%n%n$TRAVIC_COMMIT_RANGE" > /tmp/blog-commit
 - cd /tmp/blog-out/;
   git add .;
   git commit -a -F /tmp/blog-commit;
