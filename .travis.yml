@@ -1,0 +1,20 @@
+language: python
+env:
+  global:
+  - secure: "TV2O4vSQB3zFt1Kajs/ewRNBg6As3TNp9vvKHaVIdv34IwgDeHJZiZzkJoGJ\nn/Vh8cj1BYsqbKHu+r0UPFqcG1GxeznJMN8wRWqohYxiPBtojFqyy7zKW63t\nBf+YaMRwtJy6Da4lqnDhG3MI/5L6E/1Z8A0mt213cJWU2MzSDe0="
+install:
+- pip install pelican typogrify
+script:
+- pelican
+after_succes:
+- git clone -b gh-pages https://$GITHUB_TOKEN:x-oauth-basic@github.com/earthreader/blog.git /tmp/blog-out;
+  cd /tmp/blog-out/;
+  git rm -r .;
+  touch .nojekyll;
+  echo -n blog.earthreader.org > CNAME;
+- cp output/* /tmp/blog-out/;
+- git log -n1 --format="format:%s%n%n$TRAVIC_COMMIT_RANGE" > /tmp/blog-commit
+- cd /tmp/blog-out/;
+  git add .;
+  git commit -a -F /tmp/blog-commit;
+  git push origin gh-pages
