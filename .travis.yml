@@ -6,7 +6,7 @@ install:
 - pip install pelican typogrify
 script:
 - pelican
-after_succes:
+after_success:
 - git clone -b gh-pages https://$GITHUB_TOKEN:x-oauth-basic@github.com/earthreader/blog.git /tmp/blog-out;
   cd /tmp/blog-out/;
   git rm -r .;
