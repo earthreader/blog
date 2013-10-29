@@ -18,7 +18,7 @@ after_success:
   touch .nojekyll;
   echo -n blog.earthreader.org > CNAME;
   popd
-- cp output/* /tmp/blog-out/;
+- cp -r output/* /tmp/blog-out/;
 - cd /tmp/blog-out/;
   git add .;
   git commit -a -F /tmp/blog-commit;
