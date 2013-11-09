@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/category/misc.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2013-10-29T15:30:00+00:00</updated><entry><title>The First Post</title><link href="http://blog.earthreader.org/first-post.html" rel="alternate"></link><updated>2013-10-29T15:30:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-10-29:first-post.html</id><summary type="html">&lt;p&gt;Welcome to the Earth Reader&amp;nbsp;blog.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/category/misc.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2013-11-09T20:51:00+00:00</updated><entry><title>Goal of Earth Reader</title><link href="http://blog.earthreader.org/posts/2013/11/goal/" rel="alternate"></link><updated>2013-11-09T20:51:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-11-09:posts/2013/11/goal/</id><summary type="html">&lt;p&gt;Earth Reader aims to decentralize feed reader ecosystem which had been highly
+centralized to Google Reader.  Google Reader had changed the world of news
+readers, from desktop apps to web-based&amp;nbsp;services.&lt;/p&gt;
+&lt;p&gt;However &lt;a class="reference external" href="http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html"&gt;Google Reader shut down on July 1, 2013.&lt;/a&gt;  Everyone panicked,
+several new feed reader services were born, users had to migrate their data,
+and the most of alternative services were not able to import starred and
+read data, but just subscription list through&amp;nbsp;&lt;span class="caps"&gt;OPML&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://minhee.quora.com/RSS-readers-had-been-originally-desktop-apps"&gt;Feed readers are actually desktop apps at first.&lt;/a&gt;  A few years later
+some people had started to lose their data, because desktop apps had simply
+stored data to local disk.  In those days there were already some web-based feed
+readers e.g. &lt;a class="reference external" href="http://www.bloglines.com/"&gt;Bloglines&lt;/a&gt;, Google Reader, but they provided worse experience
+than desktop apps (there were no Chrome, and JavaScript engines were way slower
+back then).  Nevertheless people had gradually moved to web-based services
+from desktop apps, because they never (until the time at least) lost data,
+and were easily synchronized between multiple&amp;nbsp;computers.&lt;/p&gt;
+&lt;p&gt;These feed reader services are enough convenient, but always have some risk
+that you can&amp;#8217;t control your own data.  If the service you use suddenly shut
+down without giving you a chance to backup data, you would have to start
+everything from scratch.  Your starred articles would be&amp;nbsp;gone.&lt;/p&gt;
+&lt;p&gt;The goal of Earth Reader is to achieve the following subgoals at the same&amp;nbsp;time:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The whole data should be controlled by the owner.  It means data will be
+tangible and reachable on the file&amp;nbsp;system.&lt;/li&gt;
+&lt;li&gt;It should be possible to synchronize data between multple devices, without
+any conflict between simultaneous&amp;nbsp;updates.&lt;/li&gt;
+&lt;li&gt;The implementation and data format should be open and&amp;nbsp;free.&lt;/li&gt;
+&lt;li&gt;It could provide native apps for the most of major&amp;nbsp;platforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&amp;#8217;ve already achieved some of them.  Please try out our&amp;nbsp;prototype:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/earthreader/web"&gt;https://github.com/earthreader/web&lt;/a&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Thanks,&lt;/div&gt;
+&lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>The First Post</title><link href="http://blog.earthreader.org/posts/2013/10/first-post/" rel="alternate"></link><updated>2013-10-29T15:30:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-10-29:posts/2013/10/first-post/</id><summary type="html">&lt;p&gt;Welcome to the Earth Reader&amp;nbsp;blog.&lt;/p&gt;
 &lt;p&gt;Earth Reader is a feed reader intended to be run on various devices and
 synchronized without any particular centralized proprietary services.
 There also is &lt;a class="reference external" href="https://minhee.quora.com/RSS-readers-had-been-originally-desktop-apps"&gt;Hong Minhee&amp;#8217;s blog post&lt;/a&gt; about our initial motivation of
