@@ -20,6 +20,8 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/' \
               if CI else ARTICLE_SAVE_AS
 
+STATIC_PATHS = ['content/images']
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'index.xml'
