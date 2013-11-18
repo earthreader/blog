@@ -3,6 +3,7 @@ Earth Reader Icon
 
 :date: 2013-11-16T15:43:00Z
 :slug: icon
+:category: design
 :author: Hong Minhee
 :email: minhee@dahlia.kr
 
@@ -15,9 +16,10 @@ ground remind us the etymology of Earth Reader; earth doesn't mean the planet
 on which we live, but the land surface.  We actually tried to find an
 adversative to *cloud*.
 
-Visit her Dribbble__ as well if you're interested.
+Visit her Dribbble__ and Behance__ as well if you're interested.
 
 | Thanks,
 | Minhee and the Earth Reader team
 
-__ http://dribbble.com/heeyeun
+__ http://dribbble.com/shots/1314872-Earth-Reader
+__ http://www.behance.net/gallery/Earth-Reader-Icons/12225969
