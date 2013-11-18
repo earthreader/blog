@@ -10,6 +10,10 @@ AUTHOR = u'Earth Reader Team'
 SITENAME = u'Earth Reader Blog'
 SITEURL = 'http://blog.earthreader.org'
 
+THEME = 'svbhack'
+USER_LOGO_URL = 'https://0.gravatar.com/avatar' \
+                '/c52c2e139b7a530c0b0c7114e5e49d5c?s=280'
+
 TIMEZONE = 'UTC'
 
 DEFAULT_LANG = u'en'
