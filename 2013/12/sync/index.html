@@ -16,9 +16,10 @@
 
   <link href="http://blog.earthreader.org/index.xml" type="application/atom+xml" rel="alternate" title="Earth Reader Blog Full Atom Feed" />
 
+<meta name="keywords" content="">
 
   <title>
-Author: Hong Minhee  </title>
+Synchronizing data without losing&nbsp;control  </title>
 
 </head>
 
@@ -39,7 +40,7 @@ Author: Hong Minhee  </title>
 
   <main>
     <header>
-<p>Author: Hong Minhee</p>
+<p>Posted on Sun 22 December 2013</p>
     </header>
 
 <article>
@@ -54,50 +55,43 @@ tangible and reachable on the file&nbsp;system.</li>
 <li>It should be possible to synchronize data between multiple devices,
 without any conflict between simultaneous&nbsp;updates.</li>
 </ol>
-<p>Earth ...</p>
-  </div>
-</article>
-<hr />
-<article>
-  <div class="article_title">
-    <h3><a href="http://blog.earthreader.org/2013/11/icon/">Earth Reader&nbsp;Icon</a></h3>
-  </div>
-  <div class="article_text">
-    <img alt="Earth Reader icons" src="http://blog.earthreader.org/content/images/icon_wip111601.png" />
-<p>Thanks to Heeyeon Jeong, she designed a set of beautiful Earth Reader icons
-for iOS, Mac, Windows, Android, and a favicon.  Fresh green sprouts and brown
-ground remind us the etymology of Earth Reader; earth doesn&#8217;t mean the planet
-on which we live, but the land surface.  We actually ...</p>
-  </div>
-</article>
-<hr />
-<article>
-  <div class="article_title">
-    <h3><a href="http://blog.earthreader.org/2013/11/goal/">Goal of Earth&nbsp;Reader</a></h3>
-  </div>
-  <div class="article_text">
-    <p>Earth Reader aims to decentralize feed reader ecosystem which had been highly
-centralized to Google Reader.  Google Reader had changed the world of news
-readers, from desktop apps to web-based&nbsp;services.</p>
-<p>However <a class="reference external" href="http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html">Google Reader shut down on July 1, 2013.</a>  Everyone panicked,
-several new feed reader services were born, users ...</p>
-  </div>
-</article>
-<hr />
-<article>
-  <div class="article_title">
-    <h3><a href="http://blog.earthreader.org/2013/10/first-post/">The First&nbsp;Post</a></h3>
-  </div>
-  <div class="article_text">
-    <p class="first last">We started blogging</p>
+<p>Earth Reader itself actually does not synchronize data.  Instead it simply
+stores data into file system, and you should choose a synchronization method
+e.g. <a class="reference external" href="https://www.dropbox.com/">Dropbox</a>, <a class="reference external" href="https://drive.google.com/">Google Drive</a>, or <a class="reference external" href="http://rsync.samba.org/">rsync</a> if you&#8217;re a computer&nbsp;expert.</p>
+<p>Although there&#8217;s no magic, we had to put effort under the hood in order to
+make synchronization done smoothly.  Without any effort data becomes easily
+corrupted during synchronization.  Because there could be a race condition
+between two or more&nbsp;devices.</p>
+<p>To resolve it Earth Reader separately stores data.  Each device has its
+own isolated area, and never writes data to others&#8217; area, but can only read
+from others&#8217;.  When each device reads data it merges all updates from others&#8217;
+if there are any simultaneous changes.  We call it <em>read-time merge</em>.</p>
+<p>All explained above are already implemented by <a class="reference external" href="http://libearth.earthreader.org/">libearth</a>, our shared common
+library for various Earth Reader apps.  You can try out this right now by
+installing Earth Reader for&nbsp;Web:</p>
+<p><a class="reference external" href="https://github.com/earthreader/web">https://github.com/earthreader/web</a></p>
+<div class="line-block">
+<div class="line">Thanks,</div>
+<div class="line">Minhee and the Earth Reader team</div>
+</div>
 
   </div>
+  <div class="article_meta">
+    <p>Category: <a href="http://blog.earthreader.org/category/misc.html">misc</a></p>
+  </div>
+
+
 </article>
 
     <footer>
-<div id="paginator">
-
-</div>
+<p><a href="http://blog.earthreader.org/" class="button_accent">&larr; Back to Index</a></p>
+<script language="javascript">
+    function toggleComments() {
+        var commentDiv = document.getElementById("article_comments");
+        (commentDiv.style.display == "none") ? commentDiv.style.display = "block" : commentDiv.style.display = "none";
+        return false;
+    }
+</script>
     </footer>
 
     <div id="ending_message">
