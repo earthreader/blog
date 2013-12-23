@@ -44,7 +44,7 @@ GitHub
    https://github.com/earthreader/libearth/releases/tag/0.1.0
 
 PyPI
-   https://pypi.python.org/pypi/libearth
+   https://pypi.python.org/pypi/libearth/0.1.0
 
 You can install it using ``pip`` as like Earth Reader for Web:
 
