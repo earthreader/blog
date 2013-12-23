@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/category/misc.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2013-12-22T15:35:25+00:00</updated><entry><title>Synchronizing data without losing control</title><link href="http://blog.earthreader.org/2013/12/sync/" rel="alternate"></link><updated>2013-12-22T15:35:25+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/sync/</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://blog.earthreader.org/2013/11/goal/"&gt;Our goal&lt;/a&gt; is to achieve the following subgoals at the same&amp;nbsp;time:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/category/misc.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2013-12-22T19:07:30+00:00</updated><entry><title>Released Earth Reader for Web 0.1.0, and libearth 0.1.0</title><link href="http://blog.earthreader.org/2013/12/first-release/" rel="alternate"></link><updated>2013-12-22T19:07:30+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/first-release/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;We are very pleased to announce our first two releases:
+&lt;a class="reference external" href="https://github.com/earthreader/web"&gt;Earth Reader for Web&lt;/a&gt; 0.1.0, and &lt;a class="reference external" href="http://libearth.earthreader.org/"&gt;libearth&lt;/a&gt; 0.1.0!
+It provides the most of basic features including subscribing new feeds,
+unsubscribing feeds, categorizing subscriptions, crawling subscriptions,
+marking entries as read/unread/starred/unstarred, and &lt;a class="reference external" href="http://blog.earthreader.org/2013/12/sync/"&gt;synchronization&lt;/a&gt;
+between multiple devices through &lt;a class="reference external" href="https://www.dropbox.com/"&gt;Dropbox&lt;/a&gt;/&lt;a class="reference external" href="https://drive.google.com/"&gt;Google Drive&lt;/a&gt;/&lt;a class="reference external" href="http://rsync.samba.org/"&gt;rsync&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Earth Reader for Web is our first app.  You can install it on your server
+to use it on web browsers including mobile browsers.
+See the release page on GitHub and&amp;nbsp;PyPI:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;GitHub&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.1.0"&gt;https://github.com/earthreader/web/releases/tag/0.1.0&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;PyPI&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.1.0"&gt;https://pypi.python.org/pypi/EarthReader-Web/0.1.0&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Use &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt; to install&amp;nbsp;it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install EarthReader-Web&lt;span class="o"&gt;==&lt;/span&gt;0.1.0
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;See more on how to install and use&amp;nbsp;it:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/earthreader/web#install"&gt;https://github.com/earthreader/web#install&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Libearth is the shared common library for various Earth Reader apps.
+It supports Python 2.6, 2.7, 3.2, 3.3, PyPy 2.0+, and IronPython 2.7.4+.
+Earth Reader for Web also depends on it.
+See the release page on GitHub and&amp;nbsp;PyPI:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;GitHub&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/libearth/releases/tag/0.1.0"&gt;https://github.com/earthreader/libearth/releases/tag/0.1.0&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;PyPI&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/libearth"&gt;https://pypi.python.org/pypi/libearth&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;You can install it using &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt; as like Earth Reader for&amp;nbsp;Web:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install &lt;span class="nv"&gt;libearth&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;0.1.0
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;See the docs for&amp;nbsp;libearth:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://libearth.earthreader.org/en/0.1.0/"&gt;http://libearth.earthreader.org/en/0.1.0/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Earth Reader team and other contributors put many efforts into this.
+Thanks for &lt;a class="reference external" href="https://github.com/viobo"&gt;Choi Bochul&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/Kroisse"&gt;Eunchong Yu&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/limeburst"&gt;Jihyeok Seo&lt;/a&gt;, and
+&lt;a class="reference external" href="https://github.com/Kjwon15"&gt;Jinwon Kang&lt;/a&gt;.  This is &lt;a class="reference external" href="https://github.com/dahlia"&gt;Hong Minhee&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Regards,
+Minhee and the Earth Reader&amp;nbsp;team&lt;/p&gt;
+</summary></entry><entry><title>Synchronizing data without losing control</title><link href="http://blog.earthreader.org/2013/12/sync/" rel="alternate"></link><updated>2013-12-22T15:35:25+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/sync/</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://blog.earthreader.org/2013/11/goal/"&gt;Our goal&lt;/a&gt; is to achieve the following subgoals at the same&amp;nbsp;time:&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;The whole data should be controlled by the owner.  It means data will be
 tangible and reachable on the file&amp;nbsp;system.&lt;/li&gt;
