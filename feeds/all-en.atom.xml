@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2013-12-22T19:07:30+00:00</updated><entry><title>Released Earth Reader for Web 0.1.0, and libearth 0.1.0</title><link href="http://blog.earthreader.org/2013/12/first-release/" rel="alternate"></link><updated>2013-12-22T19:07:30+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/first-release/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2014-01-10T13:08:06+00:00</updated><entry><title>Released Earth Reader for Web 0.1.1</title><link href="http://blog.earthreader.org/2014/01/web-0.1.1/" rel="alternate"></link><updated>2014-01-10T13:08:06+00:00</updated><author><name>Kang Jinwon</name></author><id>tag:blog.earthreader.org,2014-01-10:2014/01/web-0.1.1/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.1.1:
+This version fixes several crawler bugs; added few commandline&amp;nbsp;options.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;GitHub&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.1.1"&gt;https://github.com/earthreader/web/releases/tag/0.1.1&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;PyPi&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.1.1"&gt;https://pypi.python.org/pypi/EarthReader-Web/0.1.1&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Use &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt; to install or&amp;nbsp;upgrade:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install EarthReader-Web&lt;span class="o"&gt;==&lt;/span&gt;0.1.1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The Earth Reader team and other contributors put many efforts into this.
+Thanks for Choi Bochul, Hong Minhee, and Yong Choi. This is Kang&amp;nbsp;Jinwon.&lt;/p&gt;
+&lt;p&gt;Thanks,
+Jinwon and Earth Reader&amp;nbsp;team&lt;/p&gt;
+</summary></entry><entry><title>Released Earth Reader for Web 0.1.0, and libearth 0.1.0</title><link href="http://blog.earthreader.org/2013/12/first-release/" rel="alternate"></link><updated>2013-12-22T19:07:30+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/first-release/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
 &lt;p&gt;We are very pleased to announce our first two releases:
 &lt;a class="reference external" href="https://github.com/earthreader/web"&gt;Earth Reader for Web&lt;/a&gt; 0.1.0, and &lt;a class="reference external" href="http://libearth.earthreader.org/"&gt;libearth&lt;/a&gt; 0.1.0!
 It provides the most of basic features including subscribing new feeds,
