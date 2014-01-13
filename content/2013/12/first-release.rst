@@ -60,8 +60,8 @@ The Earth Reader team and other contributors put many efforts into this.
 Thanks for `Choi Bochul`__, `Eunchong Yu`__, `Jihyeok Seo`__, and
 `Jinwon Kang`__.  This is `Hong Minhee`__.
 
-Regards,
-Minhee and the Earth Reader team
+| Regards,
+| Minhee and the Earth Reader team
 
 .. _Earth Reader for Web: https://github.com/earthreader/web
 .. _libearth: http://libearth.earthreader.org/

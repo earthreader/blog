@@ -24,5 +24,5 @@ Use ``pip`` to install or upgrade:
 The Earth Reader team and other contributors put many efforts into this.
 Thanks for Choi Bochul, Hong Minhee, and Yong Choi. This is Kang Jinwon.
 
-Thanks,
-Jinwon and Earth Reader team
+| Thanks,
+| Jinwon and Earth Reader team
