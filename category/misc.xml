@@ -12,8 +12,10 @@ This version fixes several crawler bugs; added few commandline&amp;nbsp;options.
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The Earth Reader team and other contributors put many efforts into this.
 Thanks for Choi Bochul, Hong Minhee, and Yong Choi. This is Kang&amp;nbsp;Jinwon.&lt;/p&gt;
-&lt;p&gt;Thanks,
-Jinwon and Earth Reader&amp;nbsp;team&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Thanks,&lt;/div&gt;
+&lt;div class="line"&gt;Jinwon and Earth Reader team&lt;/div&gt;
+&lt;/div&gt;
 </summary></entry><entry><title>Released Earth Reader for Web 0.1.0, and libearth 0.1.0</title><link href="http://blog.earthreader.org/2013/12/first-release/" rel="alternate"></link><updated>2013-12-22T19:07:30+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/first-release/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
 &lt;p&gt;We are very pleased to announce our first two releases:
 &lt;a class="reference external" href="https://github.com/earthreader/web"&gt;Earth Reader for Web&lt;/a&gt; 0.1.0, and &lt;a class="reference external" href="http://libearth.earthreader.org/"&gt;libearth&lt;/a&gt; 0.1.0!
@@ -53,8 +55,10 @@ See the release page on GitHub and&amp;nbsp;PyPI:&lt;/p&gt;
 &lt;p&gt;The Earth Reader team and other contributors put many efforts into this.
 Thanks for &lt;a class="reference external" href="https://github.com/viobo"&gt;Choi Bochul&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/Kroisse"&gt;Eunchong Yu&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/limeburst"&gt;Jihyeok Seo&lt;/a&gt;, and
 &lt;a class="reference external" href="https://github.com/Kjwon15"&gt;Jinwon Kang&lt;/a&gt;.  This is &lt;a class="reference external" href="https://github.com/dahlia"&gt;Hong Minhee&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Regards,
-Minhee and the Earth Reader&amp;nbsp;team&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Regards,&lt;/div&gt;
+&lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
+&lt;/div&gt;
 </summary></entry><entry><title>Synchronizing data without losing control</title><link href="http://blog.earthreader.org/2013/12/sync/" rel="alternate"></link><updated>2013-12-22T15:35:25+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/sync/</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://blog.earthreader.org/2013/11/goal/"&gt;Our goal&lt;/a&gt; is to achieve the following subgoals at the same&amp;nbsp;time:&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;The whole data should be controlled by the owner.  It means data will be
