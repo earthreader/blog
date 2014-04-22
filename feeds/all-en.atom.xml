@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2014-01-10T13:08:06+00:00</updated><entry><title>Released Earth Reader for Web 0.1.1</title><link href="http://blog.earthreader.org/2014/01/web-0.1.1/" rel="alternate"></link><updated>2014-01-10T13:08:06+00:00</updated><author><name>Kang Jinwon</name></author><id>tag:blog.earthreader.org,2014-01-10:2014/01/web-0.1.1/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.1.1:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2014-04-22T14:11:42+00:00</updated><entry><title>Released Earth Reader for Web 0.2.0</title><link href="http://blog.earthreader.org/2014/04/web-0.2.0/" rel="alternate"></link><updated>2014-04-22T14:11:42+00:00</updated><author><name>Jihyeok Seo</name></author><id>tag:blog.earthreader.org,2014-04-22:2014/04/web-0.2.0/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.2.0.  We now provide a &lt;span class="caps"&gt;GUI&lt;/span&gt; launcher
+for &lt;span class="caps"&gt;OS&lt;/span&gt; X.  You can download the prebuilt binary from&amp;nbsp;GitHub:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;GitHub&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.2.0"&gt;https://github.com/earthreader/web/releases/tag/0.2.0&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;PyPI&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.2.0"&gt;https://pypi.python.org/pypi/EarthReader-Web/0.2.0&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;You can install it using &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install EarthReader-Web&lt;span class="o"&gt;==&lt;/span&gt;0.2.0
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Cheers,&lt;/div&gt;
+&lt;div class="line"&gt;Jihyeok Seo &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; everybody&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Released Earth Reader for Web 0.1.1</title><link href="http://blog.earthreader.org/2014/01/web-0.1.1/" rel="alternate"></link><updated>2014-01-10T13:08:06+00:00</updated><author><name>Kang Jinwon</name></author><id>tag:blog.earthreader.org,2014-01-10:2014/01/web-0.1.1/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.1.1:
 This version fixes several crawler bugs; added few commandline&amp;nbsp;options.&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;GitHub&lt;/dt&gt;
