@@ -1,6 +1,7 @@
-Released Earth Reader for Web 0.1.1
+Released Earth Reader for Web 0.2.0
 ===================================
 
+:date: 2014-04-22T14:11:42Z
 :slug: web-0.2.0
 :author: Jihyeok Seo
 :email: me@limeburst.net
