@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2014-07-12T11:45:45+00:00</updated><entry><title>Released libearth 0.3.0 and 0.2.1</title><link href="http://blog.earthreader.org/2014/07/libearth-0.3.0/" rel="alternate"></link><updated>2014-07-12T11:45:45+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2014-07-12:2014/07/libearth-0.3.0/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Earth Reader Blog</title><link>http://blog.earthreader.org/</link><description></description><atom:link href="http://blog.earthreader.org/feeds/hong-minhee.rss.xml" rel="self"></atom:link><lastBuildDate>Sat, 12 Jul 2014 11:45:45 +0000</lastBuildDate><item><title>Released libearth 0.3.0 and 0.2.1</title><link>http://blog.earthreader.org/2014/07/libearth-0.3.0/</link><description>&lt;p&gt;Hi,&lt;/p&gt;
 &lt;p&gt;We are pleased to announce the release of libearth 0.3.0 and 0.2.1.
 Libearth is the shared common library for Earth Reader apps.
 Libearth 0.3.0 is the third minor release of libearth.
@@ -39,7 +39,7 @@ to 0.3.0, or 0.2.1 at&amp;nbsp;least.&lt;/p&gt;
 &lt;div class="line"&gt;Thanks,&lt;/div&gt;
 &lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Released libearth 0.2.0</title><link href="http://blog.earthreader.org/2014/04/libearth-0.2.0/" rel="alternate"></link><updated>2014-04-22T15:07:01+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2014-04-22:2014/04/libearth-0.2.0/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Hong Minhee</dc:creator><pubDate>Sat, 12 Jul 2014 11:45:45 +0000</pubDate><guid>tag:blog.earthreader.org,2014-07-12:2014/07/libearth-0.3.0/</guid></item><item><title>Released libearth 0.2.0</title><link>http://blog.earthreader.org/2014/04/libearth-0.2.0/</link><description>&lt;p&gt;Hi,&lt;/p&gt;
 &lt;p&gt;We are pleased to announce the release of libearth 0.2.0.
 Libearth is the shared common library for Earth Reader apps,
 and it&amp;#8217;s a second minor release of libearth.
@@ -63,39 +63,7 @@ to&amp;nbsp;0.2.0.&lt;/p&gt;
 &lt;div class="line"&gt;Thanks,&lt;/div&gt;
 &lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Released Earth Reader for Web 0.2.0</title><link href="http://blog.earthreader.org/2014/04/web-0.2.0/" rel="alternate"></link><updated>2014-04-22T14:11:42+00:00</updated><author><name>Jihyeok Seo</name></author><id>tag:blog.earthreader.org,2014-04-22:2014/04/web-0.2.0/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.2.0.  We now provide a &lt;span class="caps"&gt;GUI&lt;/span&gt; launcher
-for &lt;span class="caps"&gt;OS&lt;/span&gt; X.  You can download the prebuilt binary from&amp;nbsp;GitHub:&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;GitHub&lt;/dt&gt;
-&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.2.0"&gt;https://github.com/earthreader/web/releases/tag/0.2.0&lt;/a&gt;&lt;/dd&gt;
-&lt;dt&gt;PyPI&lt;/dt&gt;
-&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.2.0"&gt;https://pypi.python.org/pypi/EarthReader-Web/0.2.0&lt;/a&gt;&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;You can install it using &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install EarthReader-Web&lt;span class="o"&gt;==&lt;/span&gt;0.2.0
-&lt;/pre&gt;&lt;/div&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Cheers,&lt;/div&gt;
-&lt;div class="line"&gt;Jihyeok Seo &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; everybody&lt;/div&gt;
-&lt;/div&gt;
-</summary></entry><entry><title>Released Earth Reader for Web 0.1.1</title><link href="http://blog.earthreader.org/2014/01/web-0.1.1/" rel="alternate"></link><updated>2014-01-10T13:08:06+00:00</updated><author><name>Kang Jinwon</name></author><id>tag:blog.earthreader.org,2014-01-10:2014/01/web-0.1.1/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.1.1:
-This version fixes several crawler bugs; added few commandline&amp;nbsp;options.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;GitHub&lt;/dt&gt;
-&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.1.1"&gt;https://github.com/earthreader/web/releases/tag/0.1.1&lt;/a&gt;&lt;/dd&gt;
-&lt;dt&gt;PyPi&lt;/dt&gt;
-&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.1.1"&gt;https://pypi.python.org/pypi/EarthReader-Web/0.1.1&lt;/a&gt;&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;Use &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt; to install or&amp;nbsp;upgrade:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install EarthReader-Web&lt;span class="o"&gt;==&lt;/span&gt;0.1.1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The Earth Reader team and other contributors put many efforts into this.
-Thanks for Choi Bochul, Hong Minhee, and Yong Choi. This is Kang&amp;nbsp;Jinwon.&lt;/p&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Thanks,&lt;/div&gt;
-&lt;div class="line"&gt;Jinwon and Earth Reader team&lt;/div&gt;
-&lt;/div&gt;
-</summary></entry><entry><title>Released Earth Reader for Web 0.1.0, and libearth 0.1.0</title><link href="http://blog.earthreader.org/2013/12/first-release/" rel="alternate"></link><updated>2013-12-22T19:07:30+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/first-release/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Hong Minhee</dc:creator><pubDate>Tue, 22 Apr 2014 15:07:01 +0000</pubDate><guid>tag:blog.earthreader.org,2014-04-22:2014/04/libearth-0.2.0/</guid></item><item><title>Released Earth Reader for Web 0.1.0, and libearth 0.1.0</title><link>http://blog.earthreader.org/2013/12/first-release/</link><description>&lt;p&gt;Hi,&lt;/p&gt;
 &lt;p&gt;We are very pleased to announce our first two releases:
 &lt;a class="reference external" href="https://github.com/earthreader/web"&gt;Earth Reader for Web&lt;/a&gt; 0.1.0, and &lt;a class="reference external" href="http://libearth.earthreader.org/"&gt;libearth&lt;/a&gt; 0.1.0!
 It provides the most of basic features including subscribing new feeds,
@@ -138,7 +106,7 @@ Thanks for &lt;a class="reference external" href="https://github.com/viobo"&gt;C
 &lt;div class="line"&gt;Regards,&lt;/div&gt;
 &lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Synchronizing data without losing control</title><link href="http://blog.earthreader.org/2013/12/sync/" rel="alternate"></link><updated>2013-12-22T15:35:25+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-12-22:2013/12/sync/</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://blog.earthreader.org/2013/11/goal/"&gt;Our goal&lt;/a&gt; is to achieve the following subgoals at the same&amp;nbsp;time:&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Hong Minhee</dc:creator><pubDate>Sun, 22 Dec 2013 19:07:30 +0000</pubDate><guid>tag:blog.earthreader.org,2013-12-22:2013/12/first-release/</guid></item><item><title>Synchronizing data without losing control</title><link>http://blog.earthreader.org/2013/12/sync/</link><description>&lt;p&gt;&lt;a class="reference external" href="http://blog.earthreader.org/2013/11/goal/"&gt;Our goal&lt;/a&gt; is to achieve the following subgoals at the same&amp;nbsp;time:&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;The whole data should be controlled by the owner.  It means data will be
 tangible and reachable on the file&amp;nbsp;system.&lt;/li&gt;
@@ -164,7 +132,7 @@ installing Earth Reader for&amp;nbsp;Web:&lt;/p&gt;
 &lt;div class="line"&gt;Thanks,&lt;/div&gt;
 &lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Earth Reader Icon</title><link href="http://blog.earthreader.org/2013/11/icon/" rel="alternate"></link><updated>2013-11-16T15:43:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-11-16:2013/11/icon/</id><summary type="html">&lt;img alt="Earth Reader icons" src="http://blog.earthreader.org/content/images/icon_wip111601.png" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Hong Minhee</dc:creator><pubDate>Sun, 22 Dec 2013 15:35:25 +0000</pubDate><guid>tag:blog.earthreader.org,2013-12-22:2013/12/sync/</guid></item><item><title>Earth Reader Icon</title><link>http://blog.earthreader.org/2013/11/icon/</link><description>&lt;img alt="Earth Reader icons" src="http://blog.earthreader.org/content/images/icon_wip111601.png" /&gt;
 &lt;p&gt;Thanks to Heeyeon Jeong, she designed a set of beautiful Earth Reader icons
 for iOS, Mac, Windows, Android, and a favicon.  Fresh green sprouts and brown
 ground remind us the etymology of Earth Reader; earth doesn&amp;#8217;t mean the planet
@@ -175,7 +143,7 @@ adversative to &lt;em&gt;cloud&lt;/em&gt;.&lt;/p&gt;
 &lt;div class="line"&gt;Thanks,&lt;/div&gt;
 &lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Goal of Earth Reader</title><link href="http://blog.earthreader.org/2013/11/goal/" rel="alternate"></link><updated>2013-11-09T20:51:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-11-09:2013/11/goal/</id><summary type="html">&lt;p&gt;Earth Reader aims to decentralize feed reader ecosystem which had been highly
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Hong Minhee</dc:creator><pubDate>Sat, 16 Nov 2013 15:43:00 +0000</pubDate><guid>tag:blog.earthreader.org,2013-11-16:2013/11/icon/</guid></item><item><title>Goal of Earth Reader</title><link>http://blog.earthreader.org/2013/11/goal/</link><description>&lt;p&gt;Earth Reader aims to decentralize feed reader ecosystem which had been highly
 centralized to Google Reader.  Google Reader had changed the world of news
 readers, from desktop apps to web-based&amp;nbsp;services.&lt;/p&gt;
 &lt;p&gt;However &lt;a class="reference external" href="http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html"&gt;Google Reader shut down on July 1, 2013.&lt;/a&gt;  Everyone panicked,
@@ -209,7 +177,7 @@ any conflict between simultaneous&amp;nbsp;updates.&lt;/li&gt;
 &lt;div class="line"&gt;Thanks,&lt;/div&gt;
 &lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>The First Post</title><link href="http://blog.earthreader.org/2013/10/first-post/" rel="alternate"></link><updated>2013-10-29T15:30:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2013-10-29:2013/10/first-post/</id><summary type="html">&lt;p&gt;Welcome to the Earth Reader&amp;nbsp;blog.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Hong Minhee</dc:creator><pubDate>Sat, 09 Nov 2013 20:51:00 +0000</pubDate><guid>tag:blog.earthreader.org,2013-11-09:2013/11/goal/</guid></item><item><title>The First Post</title><link>http://blog.earthreader.org/2013/10/first-post/</link><description>&lt;p&gt;Welcome to the Earth Reader&amp;nbsp;blog.&lt;/p&gt;
 &lt;p&gt;Earth Reader is a feed reader intended to be run on various devices and
 synchronized without any particular centralized proprietary services.
 There also is &lt;a class="reference external" href="https://minhee.quora.com/RSS-readers-had-been-originally-desktop-apps"&gt;Hong Minhee&amp;#8217;s blog post&lt;/a&gt; about our initial motivation of
@@ -220,4 +188,4 @@ in the Earth Reader project.  We will try to periodically update the&amp;nbsp;bl
 &lt;div class="line"&gt;Thanks,&lt;/div&gt;
 &lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
 &lt;/div&gt;
-</summary></entry></feed>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Hong Minhee</dc:creator><pubDate>Tue, 29 Oct 2013 15:30:00 +0000</pubDate><guid>tag:blog.earthreader.org,2013-10-29:2013/10/first-post/</guid></item></channel></rss>

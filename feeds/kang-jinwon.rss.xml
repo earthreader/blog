@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Earth Reader Blog</title><link>http://blog.earthreader.org/</link><description></description><atom:link href="http://blog.earthreader.org/feeds/kang-jinwon.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 10 Jan 2014 13:08:06 +0000</lastBuildDate><item><title>Released Earth Reader for Web 0.1.1</title><link>http://blog.earthreader.org/2014/01/web-0.1.1/</link><description>&lt;p&gt;We released Earth Reader for Web 0.1.1:
+This version fixes several crawler bugs; added few commandline&amp;nbsp;options.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;GitHub&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.1.1"&gt;https://github.com/earthreader/web/releases/tag/0.1.1&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;PyPi&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.1.1"&gt;https://pypi.python.org/pypi/EarthReader-Web/0.1.1&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Use &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt; to install or&amp;nbsp;upgrade:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install EarthReader-Web&lt;span class="o"&gt;==&lt;/span&gt;0.1.1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The Earth Reader team and other contributors put many efforts into this.
+Thanks for Choi Bochul, Hong Minhee, and Yong Choi. This is Kang&amp;nbsp;Jinwon.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Thanks,&lt;/div&gt;
+&lt;div class="line"&gt;Jinwon and Earth Reader team&lt;/div&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kang Jinwon</dc:creator><pubDate>Fri, 10 Jan 2014 13:08:06 +0000</pubDate><guid>tag:blog.earthreader.org,2014-01-10:2014/01/web-0.1.1/</guid></item></channel></rss>
