@@ -13,7 +13,7 @@ You can find the full&amp;nbsp;changelog:&lt;/p&gt;
 &lt;dt&gt;GitHub&lt;/dt&gt;
 &lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/libearth/releases/tag/0.3.0"&gt;https://github.com/earthreader/libearth/releases/tag/0.3.0&lt;/a&gt;&lt;/dd&gt;
 &lt;dt&gt;PyPI&lt;/dt&gt;
-&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/libsass/0.3.0"&gt;https://pypi.python.org/pypi/libsass/0.3.0&lt;/a&gt;&lt;/dd&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/libearth/0.3.0"&gt;https://pypi.python.org/pypi/libearth/0.3.0&lt;/a&gt;&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;p&gt;You can install it using &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install &lt;span class="nv"&gt;libearth&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;0.3.0
@@ -27,7 +27,7 @@ Fixed several bugs.  You can find the full&amp;nbsp;changelog:&lt;/p&gt;
 &lt;dt&gt;GitHub&lt;/dt&gt;
 &lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/libearth/releases/tag/0.2.1"&gt;https://github.com/earthreader/libearth/releases/tag/0.2.1&lt;/a&gt;&lt;/dd&gt;
 &lt;dt&gt;PyPI&lt;/dt&gt;
-&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/libsass/0.2.1"&gt;https://pypi.python.org/pypi/libsass/0.2.1&lt;/a&gt;&lt;/dd&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/libearth/0.2.1"&gt;https://pypi.python.org/pypi/libearth/0.2.1&lt;/a&gt;&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;p&gt;You can install it using &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install &lt;span class="nv"&gt;libearth&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;0.2.1
