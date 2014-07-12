@@ -23,7 +23,7 @@ GitHub
     https://github.com/earthreader/libearth/releases/tag/0.3.0
 
 PyPI
-    https://pypi.python.org/pypi/libsass/0.3.0
+    https://pypi.python.org/pypi/libearth/0.3.0
 
 You can install it using ``pip``:
 
@@ -42,7 +42,7 @@ GitHub
     https://github.com/earthreader/libearth/releases/tag/0.2.1
 
 PyPI
-    https://pypi.python.org/pypi/libsass/0.2.1
+    https://pypi.python.org/pypi/libearth/0.2.1
 
 You can install it using ``pip``:
 
