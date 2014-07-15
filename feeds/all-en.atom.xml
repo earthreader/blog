@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2014-07-12T11:45:45+00:00</updated><entry><title>Released libearth 0.3.0 and 0.2.1</title><link href="http://blog.earthreader.org/2014/07/libearth-0.3.0/" rel="alternate"></link><updated>2014-07-12T11:45:45+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2014-07-12:2014/07/libearth-0.3.0/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2014-07-15T17:26:00+00:00</updated><entry><title>Released Earth Reader for Web 0.2.1</title><link href="http://blog.earthreader.org/2014/07/web-0.2.1/" rel="alternate"></link><updated>2014-07-15T17:26:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2014-07-15:2014/07/web-0.2.1/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.2.1.  It fixes several&amp;nbsp;bugs.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;GitHub&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.2.1"&gt;https://github.com/earthreader/web/releases/tag/0.2.1&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;PyPI&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.2.1"&gt;https://pypi.python.org/pypi/EarthReader-Web/0.2.1&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;You can install it using &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install EarthReader-Web&lt;span class="o"&gt;==&lt;/span&gt;0.2.1
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note that this version is not compatibile to libearth 0.3.0 yet.
+Please wait for Earth Reader for Web&amp;nbsp;0.3.0.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Thanks,&lt;/div&gt;
+&lt;div class="line"&gt;Minhee and the Earth Reader team&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Released libearth 0.3.0 and 0.2.1</title><link href="http://blog.earthreader.org/2014/07/libearth-0.3.0/" rel="alternate"></link><updated>2014-07-12T11:45:45+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2014-07-12:2014/07/libearth-0.3.0/</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
 &lt;p&gt;We are pleased to announce the release of libearth 0.3.0 and 0.2.1.
 Libearth is the shared common library for Earth Reader apps.
 Libearth 0.3.0 is the third minor release of libearth.
