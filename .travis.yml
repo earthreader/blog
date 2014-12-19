@@ -1,4 +1,5 @@
 language: python
+sudo: false
 env:
   global:
   - secure: "TV2O4vSQB3zFt1Kajs/ewRNBg6As3TNp9vvKHaVIdv34IwgDeHJZiZzkJoGJ\nn/Vh8cj1BYsqbKHu+r0UPFqcG1GxeznJMN8wRWqohYxiPBtojFqyy7zKW63t\nBf+YaMRwtJy6Da4lqnDhG3MI/5L6E/1Z8A0mt213cJWU2MzSDe0="
