@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/index.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2014-07-15T17:26:00+00:00</updated><entry><title>Released Earth Reader for Web 0.2.1</title><link href="http://blog.earthreader.org/2014/07/web-0.2.1/" rel="alternate"></link><updated>2014-07-15T17:26:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2014-07-15:2014/07/web-0.2.1/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.2.1.  It fixes several&amp;nbsp;bugs.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Earth Reader Blog</title><link href="http://blog.earthreader.org/" rel="alternate"></link><link href="http://blog.earthreader.org/index.xml" rel="self"></link><id>http://blog.earthreader.org/</id><updated>2015-02-24T07:57:36+00:00</updated><entry><title>Released Earth Reader for Web 0.3.0</title><link href="http://blog.earthreader.org/2015/02/web-0.3.0/" rel="alternate"></link><updated>2015-02-24T07:57:36+00:00</updated><author><name>Kang Jinwon</name></author><id>tag:blog.earthreader.org,2015-02-24:2015/02/web-0.3.0/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.3.0 with 0.1.2, and 0.2.2. It has these&amp;nbsp;changes.&lt;/p&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;0.3.0&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Run crawler thread by&amp;nbsp;default.&lt;/li&gt;
+&lt;li&gt;Error code &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;circular-refernce&lt;/span&gt;&lt;/tt&gt;, which is a typo, was renamed to
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;circular-reference&lt;/span&gt;&lt;/tt&gt;.&lt;/li&gt;
+&lt;li&gt;Fixed auto scroll when entry has&amp;nbsp;images.&lt;/li&gt;
+&lt;li&gt;Fixed a bug that raises &lt;tt class="docutils literal"&gt;BuildError&lt;/tt&gt;.&lt;/li&gt;
+&lt;li&gt;Became to need libearth 0.3.1 or&amp;nbsp;later.&lt;/li&gt;
+&lt;li&gt;Save theme&amp;nbsp;setting.&lt;/li&gt;
+&lt;li&gt;&amp;quot;Go to top&amp;quot; button on&amp;nbsp;bottom.&lt;/li&gt;
+&lt;li&gt;And a lot of changes (&lt;a class="reference internal" href="#id2"&gt;0.2.2&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;0.2.2&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Fixed a bug that enters a infinite loop when&amp;nbsp;initialize&lt;/li&gt;
+&lt;li&gt;Fix open&amp;nbsp;link.&lt;/li&gt;
+&lt;li&gt;And a lot of changes (&lt;a class="reference internal" href="#id3"&gt;0.1.2&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;0.1.2&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Entry list is cached by browser using &lt;cite&gt;Last-Modified&lt;/cite&gt; and
+&lt;cite&gt;If-Modified-Since&lt;/cite&gt; headers.&lt;/li&gt;
+&lt;li&gt;Fix malformed session id on multi&amp;nbsp;process.&lt;/li&gt;
+&lt;li&gt;Fix error log when&amp;nbsp;crawling.&lt;/li&gt;
+&lt;li&gt;Force &lt;span class="caps"&gt;MIME&lt;/span&gt; type &amp;quot;test/html&amp;quot; when not&amp;nbsp;given.&lt;/li&gt;
+&lt;li&gt;Fix shortcut&amp;nbsp;key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;GitHub&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.3.0"&gt;https://github.com/earthreader/web/releases/tag/0.3.0&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;PyPI&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.3.0"&gt;https://pypi.python.org/pypi/EarthReader-Web/0.3.0&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;You can install it using &lt;tt class="docutils literal"&gt;pip&lt;/tt&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install EarthReader-Web&lt;span class="o"&gt;==&lt;/span&gt;0.3.0
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Thanks,&lt;/div&gt;
+&lt;div class="line"&gt;Jinwon and the Earth Reader team&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Released Earth Reader for Web 0.2.1</title><link href="http://blog.earthreader.org/2014/07/web-0.2.1/" rel="alternate"></link><updated>2014-07-15T17:26:00+00:00</updated><author><name>Hong Minhee</name></author><id>tag:blog.earthreader.org,2014-07-15:2014/07/web-0.2.1/</id><summary type="html">&lt;p&gt;We released Earth Reader for Web 0.2.1.  It fixes several&amp;nbsp;bugs.&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;GitHub&lt;/dt&gt;
 &lt;dd&gt;&lt;a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.2.1"&gt;https://github.com/earthreader/web/releases/tag/0.2.1&lt;/a&gt;&lt;/dd&gt;

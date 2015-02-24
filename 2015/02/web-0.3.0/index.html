@@ -16,9 +16,10 @@
 
   <link href="http://blog.earthreader.org/index.xml" type="application/atom+xml" rel="alternate" title="Earth Reader Blog Full Atom Feed" />
 
+<meta name="keywords" content="">
 
   <title>
-Author: Kang Jinwon  </title>
+Released Earth Reader for Web&nbsp;0.3.0  </title>
 
 </head>
 
@@ -39,7 +40,7 @@ Author: Kang Jinwon  </title>
 
   <main>
     <header>
-<p>Author: Kang Jinwon</p>
+<p>Posted on Tue 24 February 2015</p>
     </header>
 
 <article>
@@ -55,32 +56,63 @@ Author: Kang Jinwon  </title>
 <li>Error code <tt class="docutils literal"><span class="pre">circular-refernce</span></tt>, which is a typo, was renamed to
 <tt class="docutils literal"><span class="pre">circular-reference</span></tt>.</li>
 <li>Fixed auto scroll when entry has&nbsp;images.</li>
-<li>Fixed a bug ...</li></ul></div>
-  </div>
-</article>
-<hr />
-<article>
-  <div class="article_title">
-    <h3><a href="http://blog.earthreader.org/2014/01/web-0.1.1/">Released Earth Reader for Web&nbsp;0.1.1</a></h3>
-  </div>
-  <div class="article_text">
-    <p>We released Earth Reader for Web 0.1.1:
-This version fixes several crawler bugs; added few commandline&nbsp;options.</p>
+<li>Fixed a bug that raises <tt class="docutils literal">BuildError</tt>.</li>
+<li>Became to need libearth 0.3.1 or&nbsp;later.</li>
+<li>Save theme&nbsp;setting.</li>
+<li>&quot;Go to top&quot; button on&nbsp;bottom.</li>
+<li>And a lot of changes (<a class="reference internal" href="#id2">0.2.2</a>).</li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h2>0.2.2</h2>
+<ul class="simple">
+<li>Fixed a bug that enters a infinite loop when&nbsp;initialize</li>
+<li>Fix open&nbsp;link.</li>
+<li>And a lot of changes (<a class="reference internal" href="#id3">0.1.2</a>).</li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>0.1.2</h2>
+<ul class="simple">
+<li>Entry list is cached by browser using <cite>Last-Modified</cite> and
+<cite>If-Modified-Since</cite> headers.</li>
+<li>Fix malformed session id on multi&nbsp;process.</li>
+<li>Fix error log when&nbsp;crawling.</li>
+<li>Force <span class="caps">MIME</span> type &quot;test/html&quot; when not&nbsp;given.</li>
+<li>Fix shortcut&nbsp;key.</li>
+</ul>
 <dl class="docutils">
 <dt>GitHub</dt>
-<dd><a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.1.1">https://github.com/earthreader/web/releases/tag/0.1.1</a></dd>
-<dt>PyPi</dt>
-<dd><a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.1.1">https://pypi.python.org/pypi/EarthReader-Web/0.1.1</a></dd>
+<dd><a class="reference external" href="https://github.com/earthreader/web/releases/tag/0.3.0">https://github.com/earthreader/web/releases/tag/0.3.0</a></dd>
+<dt>PyPI</dt>
+<dd><a class="reference external" href="https://pypi.python.org/pypi/EarthReader-Web/0.3.0">https://pypi.python.org/pypi/EarthReader-Web/0.3.0</a></dd>
 </dl>
-<p>Use <tt class="docutils literal">pip</tt> to install or&nbsp;upgrade:</p>
-<div class="highlight"><pre><span class="gp">$</span> pip install EarthReader-Web<span class="o">==</span>0 ...</pre></div>
+<p>You can install it using <tt class="docutils literal">pip</tt>:</p>
+<div class="highlight"><pre><span class="gp">$</span> pip install EarthReader-Web<span class="o">==</span>0.3.0
+</pre></div>
+<div class="line-block">
+<div class="line">Thanks,</div>
+<div class="line">Jinwon and the Earth Reader team</div>
+</div>
+</div>
+
   </div>
+  <div class="article_meta">
+    <p>Category: <a href="http://blog.earthreader.org/category/misc.html">misc</a></p>
+  </div>
+
+
 </article>
 
     <footer>
-<div id="paginator">
-
-</div>
+<p><a href="http://blog.earthreader.org/" class="button_accent">&larr; Back to Index</a></p>
+<script language="javascript">
+    function toggleComments() {
+        var commentDiv = document.getElementById("article_comments");
+        (commentDiv.style.display == "none") ? commentDiv.style.display = "block" : commentDiv.style.display = "none";
+        return false;
+    }
+</script>
     </footer>
 
     <div id="ending_message">
