@@ -20,23 +20,22 @@ We released Earth Reader for Web 0.3.0 with 0.1.2, and 0.2.2. It has these chang
 - Became to need libearth 0.3.1 or later.
 - Save theme setting.
 - "Go to top" button on bottom.
-- And a lot of changes (`Version 0.2.2`_).
+- And a lot of changes (`0.2.2`_).
 
 
 0.2.2
 -----
 
-- Fixed a bug that enters a infinite loop when initilize
-  :class:`~earthreader.web.CategoryEntryGenerator`
+- Fixed a bug that enters a infinite loop when initialize
 - Fix open link.
-- And a lot of changes (`Version 0.1.2`_).
+- And a lot of changes (`0.1.2`_).
 
 
 0.1.2
 -----
 
-- Entry list is cached by browser using :mailheader:`Last-Modified` and
-  :mailheader:`If-Modified-Since` headers.
+- Entry list is cached by browser using `Last-Modified` and
+  `If-Modified-Since` headers.
 - Fix malformed session id on multi process.
 - Fix error log when crawling.
 - Force MIME type "test/html" when not given.
